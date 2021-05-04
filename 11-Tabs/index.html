@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabs</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <section>
+      <div class="title">
+        <h2>about</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, saepe?
+        </p>
+      </div>
+      <div class="about-center section-center">
+        <article class="about-img">
+          <img src="hero-bcg (1).jpeg" alt="about picture" />
+        </article>
+        <article class="about">
+          <!-- btn container -->
+          <div class="btn-container">
+            <button class="tab-btn" data-id="history">history</button>
+            <button class="tab-btn" data-id="vision">vision</button>
+            <button class="tab-btn" data-id="goals">goals</button>
+          </div>
+
+        </article>
+        <article class="about-content">
+            <!-- single item -->
+            <div class="content active" id="history">
+                <h4>history</h4>
+
+            </div>
+            <!-- end of single item -->
+            <!-- single item -->
+            <div class="content active" id="vision">
+                <h4>vision</h4>
+            
+            </div>
+            <!-- end of single item -->
+            <!-- single item -->
+            <div class="content active" id="goals">
+                <h4>goals</h4>
+            
+            </div>
+            <!-- end of single item -->
+        </article>
+      </div>
+    </section>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
