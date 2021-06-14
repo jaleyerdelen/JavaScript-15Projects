@@ -25,8 +25,6 @@ if(item !== question){
 }
     })
 
-
-
     question.classList.toggle("show-text");
 })
 });
